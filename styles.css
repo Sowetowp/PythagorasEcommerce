@@ -16,6 +16,8 @@
 .header{
     background-image: url(/122016608_806650313433880_1600521106296355963_n.jpg);
     min-height: 80vh;
+    background-repeat: no-repeat;
+    
 }
 .middle{
     display: flex;
