@@ -16,5 +16,8 @@
 }
 .middle{
     display: flex;
-    gap: 25px;
+    gap: 30px;
+}
+.middle a{
+    
 }
