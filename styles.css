@@ -45,6 +45,6 @@
     margin: auto;
     min-height: 10px;
 }
-@media screen(max-) {
+@media screen(max-width: 400px) {
     
 }
