@@ -45,6 +45,9 @@
     margin: auto;
     min-height: 10px;
 }
+#logoo{
+    display: block;
+}
 @media (max-width: 400px) {
     .middle{
         display: none;
