@@ -52,4 +52,7 @@
     .header section{
         background-color: white;
     }
+    .end a{
+        color: black;
+    }
 }
