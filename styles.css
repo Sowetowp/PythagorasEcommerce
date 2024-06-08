@@ -17,7 +17,7 @@
     background-image: url(/h6-slide1-img.jpg);
     min-height: 80vh;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 .middle{
     display: flex;
