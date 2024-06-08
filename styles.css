@@ -7,7 +7,6 @@
 .sec1{
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
     align-items: center;
     padding: 30px 40px;
 }
