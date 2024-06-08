@@ -32,7 +32,5 @@
 }
 .heart{
     color: black !important;
-}
-.menu{
-    
+    text-shadow: solid 1p;
 }
