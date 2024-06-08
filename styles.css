@@ -46,5 +46,7 @@
     min-height: 10px;
 }
 @media (max-width: 400px) {
-    
+    .middle{
+        display: none;
+    }
 }
