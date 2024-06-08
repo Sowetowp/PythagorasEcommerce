@@ -32,5 +32,5 @@
 }
 .heart{
     color: black !important;
-    text-shadow: solid 1p;
+    text-shadow: 0px 0px 5px black;
 }
