@@ -31,6 +31,6 @@
     font-size: 13px;
 }
 .heart{
-    color: black !important;
+    color: transparent !important;
     text-shadow: 0px 0px 5px black;
 }
