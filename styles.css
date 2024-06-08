@@ -55,4 +55,7 @@
     .end a{
         color: black;
     }
+    #logoo{
+        display: block;
+    }
 }
