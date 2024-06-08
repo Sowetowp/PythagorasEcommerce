@@ -61,4 +61,7 @@
     #logoo{
         display: block;
     }
+    .logo{
+        display: none;
+    }
 }
