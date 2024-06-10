@@ -44,8 +44,8 @@
     background-color: aqua;
     margin: auto;
     display: flex;
-    justify-content: center;
     min-height: 80vh;
+    align-items: center;
 }
 #logoo{
     display: none;
