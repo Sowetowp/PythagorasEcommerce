@@ -70,7 +70,9 @@
     height: 100%;
     width: 30%;
 }
-
+.box11 :nth-child(2) img{
+    height: 50%;
+}
 @media (max-width: 400px) {
     .middle{
         display: none;
