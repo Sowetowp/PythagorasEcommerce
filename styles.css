@@ -80,7 +80,7 @@
     position: relative;
     overflow: hidden;
 }
-.box11 :nth-child(1):hover .trans{
+.www:hover .trans{
     opacity: 1;
     transition: opacity 1s ease-out;
 }
