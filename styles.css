@@ -59,6 +59,7 @@
 }
 .box11{
     width: 100%;
+    height: ;
     display: flex;
 }
 .box11 :nth-child(1){
