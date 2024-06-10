@@ -91,7 +91,7 @@
     flex-direction: column;
     width: 30%;
 }
-.box22 :nth-child(2) img{
+.box22 :nth-child(1) img{
     height: 50%;
     width: 100%;
 }
