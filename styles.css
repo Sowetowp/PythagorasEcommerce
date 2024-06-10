@@ -90,7 +90,6 @@
 }
 .img1{
     scale: 1;
-    position: relative;
     z-index: 1;
     transition: scale 1s ease;
 }
