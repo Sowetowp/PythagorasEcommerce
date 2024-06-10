@@ -64,10 +64,10 @@
 }
 .box11 :nth-child(1){
     width: 70%;
-    height: ;
+    height: 100%;
 }
-.box11 :nth-child(1){
-    height: ;
+.box11 :nth-child(2){
+    height: 100%;
 }
 @media (max-width: 400px) {
     .middle{
