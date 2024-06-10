@@ -74,7 +74,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 40%;
 }
 .box11 :nth-child(2) img{
     height: 50%;
