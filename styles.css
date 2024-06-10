@@ -90,7 +90,7 @@
 }
 .img1{
     scale: 1;
-    transition: ;
+    transition: scale ;
 }
 .box11 :nth-child(1):hover .img1{
     scale: 1.2;
