@@ -88,6 +88,7 @@
     width: 100% !important;
     height: 100% !important;
     scale: 1;
+    z-index: 1;
     transition: scale 1s ease;
 }
 
