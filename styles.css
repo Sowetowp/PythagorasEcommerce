@@ -90,11 +90,13 @@
 }
 .img1{
     scale: 1;
+    position: relative;
+    z-index: 1;
     transition: scale 1s ease;
 }
-/* .box11 :nth-child(1):hover .img1{
+.box11 :nth-child(1):hover .img1{
     scale: 1.2;
-} */
+}
 .box11 :nth-child(1) div {
     opacity: 0;
     width: 100%;
