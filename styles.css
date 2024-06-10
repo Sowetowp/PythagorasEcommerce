@@ -72,6 +72,7 @@
 }
 .box11 :nth-child(2) img{
     height: 50%;
+    width: 100%;
 }
 @media (max-width: 400px) {
     .middle{
