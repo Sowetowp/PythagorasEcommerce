@@ -81,7 +81,7 @@
 }
 .box11 :nth-child(1):hover .trans{
     opacity: 1;
-    transition: opacity 2s ease-out;
+    transition: opacity 1s ease-out;
 }
 .box11 :nth-child(1) img {
     width: 100%;
