@@ -77,8 +77,8 @@
 .box11 :nth-child(1) {
     width: 60%;
     height: 100%;
-    overflow: hidden;
     position: relative;
+    overflow: hidden;
 }
 .box11 :nth-child(1):hover .trans{
     opacity: 1;
