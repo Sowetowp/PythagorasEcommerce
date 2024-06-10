@@ -63,7 +63,7 @@
     display: flex;
 }
 .box11 :nth-child(1){
-    width: 70%;
+    width: 60%;
     height: 100%;
 }
 .box11 :nth-child(1) img{
