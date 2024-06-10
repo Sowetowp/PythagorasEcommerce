@@ -49,6 +49,9 @@
     align-items: center;
     text-align: center;
 }
+.sec2 p{
+    margin-top: ;
+}
 #logoo{
     display: none;
     width: 100px;
