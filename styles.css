@@ -92,7 +92,7 @@
     scale: 1;
 }
 .box11 :nth-child(1):hover .img1{
-    scale: 2;
+    scale: 2.5;
 }
 .box11 :nth-child(1) div {
     opacity: 0;
