@@ -79,8 +79,8 @@
     height: 100%;
     position: relative;
 }
-.box11 :nth-child(1):hover {
-    
+.box11 :nth-child(1):hover .box11 :nth-child(1) div{
+    opacity: 1;
 }
 .box11 :nth-child(1) img {
     width: 100%;
