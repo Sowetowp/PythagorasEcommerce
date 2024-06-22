@@ -196,3 +196,59 @@
     font-size: 11px;
     font-weight: transparent;
 }
+@media (max-width: 768px) {
+    .middle {
+        display: none;
+    }
+
+    .sec2,
+    .sec3,
+    .sec3 .firsthav,
+    .sec3 .secondhav,
+    .sec4,
+    .sec5,
+    .sec5 .onehav,
+    .sec5 .twohav,
+    .sec5 .threehav,
+    .sec5 .fourhav,
+    .sec6 {
+        width: 100%;
+        display: block;
+        padding: 20px;
+    }
+
+    .aboutus img {
+        height: 30vh;
+    }
+    .floating {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        top: 0px;
+    }
+    .sec3 {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .firsthav,
+    .secondhav {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .secondhav .abt {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .secondhav .but {
+        flex-direction: column;
+    }
+
+    .secondhav button {
+        width: 100%;
+    }
+}
