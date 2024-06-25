@@ -16,10 +16,9 @@
 }
 .menulist{
     display: none;
-    color: white !important;
 }
 .menulist a{
-    
+    color: white !important;
 }
 .menulist:hover{
     display: flex;
