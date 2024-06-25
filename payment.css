@@ -57,6 +57,15 @@
     width: 100%
 
 }
+.show:hover + .menulist{
+    display: flex;
+}
+.menulist{
+    display: none;
+}
+.menulist:hover{
+    display: flex;
+}
 .sec3{
     width: 100%;
     display: flex;
