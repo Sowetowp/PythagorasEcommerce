@@ -199,7 +199,7 @@
     .box22 {
         height: 80vh;
         display: flex;
-        f
+        flex-wrap: wrap;
     }
     
     .box22 :nth-child(2) {
