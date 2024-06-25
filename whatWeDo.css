@@ -128,3 +128,6 @@
     color: gray;
 
 } 
+.menulist a{
+    color: white !important;
+}
