@@ -16,7 +16,7 @@
     width: 100px;
 }
 
-.header {
+.header1 {
     background-image: url(/h6-slide1-img.jpg);
     min-height: 80vh;
     background-repeat: no-repeat;
@@ -153,7 +153,7 @@
         display: none;
     }
 
-    .header section {
+    .header1 section {
         background-color: white;
     }
 
@@ -173,7 +173,7 @@
         padding: 30px 10px;
     }
 
-    .header {
+    .header1 {
         background-position: 51% 0%;
     }
 
