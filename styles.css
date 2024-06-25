@@ -147,7 +147,9 @@
     height: 50%;
     width: 100%;
 }
-
+.jmb{
+    margin-bottom: 50px;
+}
 @media (max-width: 400px) {
     .middle1 {
         display: none;
