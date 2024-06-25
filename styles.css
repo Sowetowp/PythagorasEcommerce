@@ -5,7 +5,7 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.sec11 {
+.sec1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,38 +16,38 @@
     width: 100px;
 }
 
-.header1 {
+.header {
     background-image: url(/h6-slide1-img.jpg);
     min-height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.middle1 {
+.middle {
     display: flex;
     gap: 30px;
 }
 
-.middle1 a {
+.middle a {
     color: white;
     text-decoration: none;
     font-weight: 700;
     font-size: 13px;
 }
 
-.end1 {
+.end {
     display: flex;
     gap: 20px;
 }
 
-.end1 a {
+.end a {
     color: white;
     text-decoration: none;
     font-weight: 700;
     font-size: 13px;
 }
 
-.sec21 {
+.sec2 {
     width: 60%;
     margin: auto;
     display: flex;
@@ -57,7 +57,7 @@
     text-align: center;
 }
 
-.sec21 p {
+.sec2 p {
     margin-top: 25px;
     line-height: 25px;
     color: #c4c4c4;
@@ -149,15 +149,15 @@
 }
 
 @media (max-width: 400px) {
-    .middle1 {
+    .middle {
         display: none;
     }
 
-    .header1 section {
+    .header section {
         background-color: white;
     }
 
-    .end1 a {
+    .end a {
         color: black;
     }
 
@@ -169,49 +169,15 @@
         display: none;
     }
 
-    .sec11 {
+    .sec1 {
         padding: 30px 10px;
     }
 
-    .header1 {
+    .header {
         background-position: 51% 0%;
     }
 
-    .sec21 {
+    .sec2 {
         width: 90%;
     }
-    .www {
-        width: 100%;
-    }
-    .box11 {
-        flex-wrap: wrap;
-        height: 80vh;
-    }
-
-    .box11 :nth-child(2) {
-        width: 100%;
-    }
-    
-    .box11 :nth-child(2) img {
-        height: 50%;
-    }
-    
-    .box22 {
-        height: 80vh;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .box22 :nth-child(2) {
-        width: 100%;
-    }
-    
-    .box22 :nth-child(1) {
-        width: 100%;
-    }
-    
-    .box22 :nth-child(1) img {
-        height: 100%;
-    }
-    
 }
