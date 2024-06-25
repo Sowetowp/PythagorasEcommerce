@@ -18,6 +18,9 @@
     display: none;
     color: white !important;
 }
+.menulist a{
+    
+}
 .menulist:hover{
     display: flex;
 }
