@@ -21,6 +21,9 @@
 .menulist:hover{
     display: flex;
 }
+.menulist a{
+    color: white !important;
+}
 .sec1 {
     display: flex;
     justify-content: space-between;
