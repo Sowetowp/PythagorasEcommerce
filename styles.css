@@ -203,8 +203,7 @@
     }
     
     .box22 :nth-child(2) {
-        width: 60%;
-        height: 100%;
+        width: 100%;
     }
     
     .box22 :nth-child(2) img {
