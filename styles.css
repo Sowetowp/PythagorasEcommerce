@@ -11,7 +11,12 @@
     align-items: center;
     padding: 30px 40px;
 }
-
+.menulist{
+    display: none;
+}
+.menulist:hover{
+    display: block;
+}
 .logo {
     width: 100px;
 }
