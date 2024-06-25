@@ -16,6 +16,7 @@
 }
 .menulist{
     display: none;
+    color: white;
 }
 .menulist:hover{
     display: flex;
