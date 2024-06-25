@@ -115,12 +115,16 @@
     line-height: 40px;
 
 }
-/* .and{
-    /* background-color: red; */
-    border-top: 1px solid gray;
-    margin-top: auto;
+.show:hover + .menulist{
+    display: flex;
+}
+.menulist{
+    display: none;
+}
+.menulist:hover{
+    display: flex;
 }
 .and p{
     color: gray;
 
-}  */
+} 
