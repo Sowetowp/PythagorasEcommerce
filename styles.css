@@ -35,12 +35,12 @@
     font-size: 13px;
 }
 
-.end {
+.end1 {
     display: flex;
     gap: 20px;
 }
 
-.end a {
+.end1 a {
     color: white;
     text-decoration: none;
     font-weight: 700;
@@ -157,7 +157,7 @@
         background-color: white;
     }
 
-    .end a {
+    .end1 a {
         color: black;
     }
 
