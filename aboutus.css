@@ -56,6 +56,9 @@
 .menulist:hover{
     display: flex;
 }
+.menulist a{
+    color: white !important;
+}
 .sec2 {
     width: 100%;
 }
