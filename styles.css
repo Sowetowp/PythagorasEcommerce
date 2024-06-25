@@ -183,4 +183,7 @@
     .www {
         width: 100%;
     }
+    .box11 {
+        flex-wrap: wrap;
+    }
 }
