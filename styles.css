@@ -23,12 +23,12 @@
     background-size: cover;
 }
 
-.middle {
+.middle1 {
     display: flex;
     gap: 30px;
 }
 
-.middle a {
+.middle1 a {
     color: white;
     text-decoration: none;
     font-weight: 700;
@@ -149,7 +149,7 @@
 }
 
 @media (max-width: 400px) {
-    .middle {
+    .middle1 {
         display: none;
     }
 
