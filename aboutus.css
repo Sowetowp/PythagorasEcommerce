@@ -47,7 +47,15 @@
     font-weight: 700;
     font-size: 13px;
 }
-
+.show:hover + .menulist{
+    display: flex;
+}
+.menulist{
+    display: none;
+}
+.menulist:hover{
+    display: flex;
+}
 .sec2 {
     width: 100%;
 }
