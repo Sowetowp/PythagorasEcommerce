@@ -47,7 +47,7 @@
     font-size: 13px;
 }
 
-.sec2 {
+.sec21 {
     width: 60%;
     margin: auto;
     display: flex;
@@ -57,7 +57,7 @@
     text-align: center;
 }
 
-.sec2 p {
+.sec21 p {
     margin-top: 25px;
     line-height: 25px;
     color: #c4c4c4;
@@ -177,7 +177,7 @@
         background-position: 51% 0%;
     }
 
-    .sec2 {
+    .sec21 {
         width: 90%;
     }
 }
