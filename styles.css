@@ -12,13 +12,13 @@
     padding: 30px 40px;
 }
 .show:hover .menulist{
-    display: block;
+    display: flex;
 }
 .menulist{
     display: none;
 }
 .menulist:hover{
-    display: block;
+    display: flex;
 }
 .logo {
     width: 100px;
