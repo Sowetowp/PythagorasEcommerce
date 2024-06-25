@@ -12,7 +12,15 @@
     background-color: white;
     z-index: 1000;
 }
-
+.show:hover + .menulist{
+    display: flex;
+}
+.menulist{
+    display: none;
+}
+.menulist:hover{
+    display: flex;
+}
 .sec1 {
     display: flex;
     justify-content: space-between;
