@@ -12,7 +12,18 @@
     background-color: white;
     z-index: 1000;
 }
-
+.show:hover + .menulist{
+    display: flex;
+}
+.menulist{
+    display: none;
+}
+.menulist:hover{
+    display: flex;
+}
+.menulist a{
+    color: white !important;
+}
 .sec1 {
     display: flex;
     justify-content: space-between;
@@ -47,18 +58,6 @@
     font-weight: 700;
     font-size: 13px;
 }
-.show:hover + .menulist{
-    display: flex;
-}
-.menulist{
-    display: none;
-}
-.menulist:hover{
-    display: flex;
-}
-.menulist a{
-    color: white !important;
-}
 .sec2 {
     width: 100%;
 }
@@ -66,105 +65,54 @@
 .aboutus img {
     width: 100%;
 }
-
-.floating {
+.floating{
     position: absolute;
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 100%;
-    top: 40px;
+    align-items: center;
+    height: 50%;
 }
-
 .floating p {
     font-weight: 500;
     font-size: 50px;
     color: white;
     height: fit-content;
-
 }
-
 .sec3 {
     width: 100%;
     display: flex;
     padding: 100px 100px;
 
 }
+.sec3 h3{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 90px;
+}
+.sec3 p{
+    color: gray;
+    line-height: 25px;
+    font-weight: 300;
+}
+.sec3 strong{
+    font-weight: 450;
+    font-size: 20px;
+}
 
 .firsthav {
     width: 50%;
 }
-
-.firsthav img {
-    width: 100%;
+.text1{
+    width: 90%;
 }
-
 .secondhav {
     width: 50%;
 }
-
-.secondhav .but {
+.text2{
     width: 90%;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
 }
-
-.but .abt {
-    padding: 23px 40px 23px 40px;
-    height: fit-content;
-    width: fit-content;
-    background-color: black;
-    color: white;
-}
-
-.secondhav button {
-    padding: 23px 40px 23px 40px;
-    height: fit-content;
-    width: fit-content;
-    background-color: transparent;
-    border: solid 1px rgb(218, 215, 215);
-}
-
-.secondhav button:hover {
-    background-color: black;
-    color: rgb(253, 253, 253);
-}
-
-.secondhav p {
-    padding: 30px 30px;
-    color: gray;
-    font-weight: 200;
-}
-
-.secondhav h6 {
-    color: rgb(160, 159, 159);
-    padding: 0px 30px;
-}
-
 .sec4 {
-    width: 100%;
-    padding: 100px;
-    background-color: rgb(251, 251, 252);
-    text-align: center;
-    justify-content: center;
-}
-
-.sec4 h2 {
-    font-weight: 500;
-}
-
-.sec4 .p2 p {
-    color: gray;
-    font-weight: 300;
-}
-
-.sec4 h4 {
-    font-weight: 500;
-}
-
-.sec5 {
     width: 100%;
     display: flex;
     padding: 100px 100px;
@@ -172,33 +120,33 @@
     color: white;
 }
 
-.sec5 p {
+.sec4 p {
     line-height: 25px;
     font-weight: 200;
 }
 
-.sec5 h3 {
+.sec4 h3 {
     font-weight: 500;
     line-height: 40px;
 }
 
-.sec5 .onehav {
+.sec4 .onehav {
     width: 25%;
 }
 
-.sec5 .twohav {
+.sec4 .twohav {
     width: 25%;
 }
 
-.sec5 .threehav {
+.sec4 .threehav {
     width: 25%;
 }
 
-.sec5 .fourhav {
+.sec4 .fourhav {
     width: 25%;
 }
 
-.sec6 {
+.sec5 {
     margin-top: 1px;
     width: 100%;
     padding: 20px 100px;
@@ -207,59 +155,51 @@
     font-size: 11px;
     font-weight: transparent;
 }
+
+
 @media (max-width: 768px) {
     .middle {
         display: none;
     }
-
     .sec2,
     .sec3,
     .sec3 .firsthav,
     .sec3 .secondhav,
     .sec4,
-    .sec5,
-    .sec5 .onehav,
-    .sec5 .twohav,
-    .sec5 .threehav,
-    .sec5 .fourhav,
-    .sec6 {
+    .sec4 .onehav,
+    .sec4 .twohav,
+    .sec4 .threehav,
+    .sec4 .fourhav,
+    .sec5 {
         width: 100%;
         display: block;
-        padding: 20px;
     }
 
-    .aboutus img {
-        height: 30vh;
-    }
-    .floating {
-        position: absolute;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        top: 0px;
-    }
     .sec3 {
         flex-direction: column;
         padding: 20px;
     }
 
-    .firsthav,
-    .secondhav {
+    .sec3 .firsthav,
+    .sec3 .secondhav {
         width: 100%;
-        padding: 20px 0;
-    }
-    .secondhav .abt {
-        width: 100%;
-        flex-direction: column;
+        padding: 20px 0; /* Adjust padding as needed */
     }
 
-    .secondhav .but {
+    .sec4 {
         flex-direction: column;
+        padding: 20px;
     }
 
-    .secondhav button {
+    .sec4 .onehav,
+    .sec4 .twohav,
+    .sec4 .threehav,
+    .sec4 .fourhav {
         width: 100%;
+        padding: 20px 0; /* Adjust padding as needed */
+    }
+
+    .sec5 {
+        padding: 20px;
     }
 }

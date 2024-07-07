@@ -115,6 +115,7 @@
     line-height: 40px;
 
 }
+<<<<<<< HEAD
 .and{
     margin-top: 1px;
     width: 100%;
@@ -132,3 +133,21 @@
         
     }
 }
+=======
+.show:hover + .menulist{
+    display: flex;
+}
+.menulist{
+    display: none;
+}
+.menulist:hover{
+    display: flex;
+}
+.and p{
+    color: gray;
+
+} 
+.menulist a{
+    color: white !important;
+}
+>>>>>>> refs/remotes/origin/master

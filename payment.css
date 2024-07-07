@@ -1,0 +1,227 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+}
+
+.sec1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.middle {
+    display: flex;
+    gap: 30px;
+}
+
+.middle a {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.end {
+    display: flex;
+    gap: 20px;
+}
+
+.end a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+}
+.sec2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    width: 100%
+
+}
+.show:hover + .menulist{
+    display: flex;
+}
+.menulist{
+    display: none;
+}
+.menulist:hover{
+    display: flex;
+}
+.menulist a{
+    color: white !important;
+}
+.sec3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 100px 100px 100px 100px;
+}
+.sec3 .firsthav{
+    width: 33%;
+    height: 100vh;
+ 
+}
+.firsthav .para{
+    width: 90%;
+    line-height: 30px;
+}
+.sec3 h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+.sec3 h4{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 75px;
+}
+.sec3 h5{
+    font-size: 20px;
+    color: gray;
+    font-weight: 400;
+}
+.para p, h6{
+    color: gray;
+}
+.sec3 .secondhav{
+    width: 33%;
+    height: 100vh;
+    border: solid 1px #e0dbdb;
+    background: #fff;
+    border-radius: 1px;
+    text-align: center;
+    padding: 50px;
+}
+.secondhav .list1{
+    width: 90%;
+    line-height: 35px;
+}
+.secondhav .styled-hr{
+    width: 100%;
+}
+.secondhav p{
+    color: gray;
+    line-height: 45px;
+}
+.secondhav strong{
+    color: #000;
+}
+.sec3 .thirdhav{
+    width: 33%;
+    height: 100vh;
+    border: solid 1px #e0dbdb;
+    background: #f7f9fc;
+    border-radius: 1px;
+    text-align: center;
+    padding: 50px;
+}
+.thirdhav .list2{
+    width: 90%;
+    line-height: 35px;
+}
+.thirdhav .styled-hr2{
+    width: 100%;
+
+}
+.thirdhav p{
+    color: gray;
+    line-height: 45px;
+}
+.thirdhav strong{
+    color: #000;
+}
+.but button {
+    padding: 23px 60px 23px 60px;
+    background-color: black;
+    color: white;
+    border: solid 1px;
+}
+.but button:hover {
+    background-color: rgb(51, 51, 51);
+}
+
+.sec4 {
+    width: 100%;
+    display: flex;
+    padding: 100px 100px;
+    background-color: #000;
+    color: white;
+}
+
+.sec4 p {
+    line-height: 25px;
+    font-weight: 200;
+}
+
+.sec4 h3 {
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.sec4 .onehav {
+    width: 25%;
+}
+
+.sec4 .twohav {
+    width: 25%;
+}
+
+.sec4 .threehav {
+    width: 25%;
+}
+
+.sec4 .fourhav {
+    width: 25%;
+}
+
+.sec5 {
+    margin-top: 1px;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: #000;
+    color: rgba(255, 255, 255, 0.507);
+    font-size: 11px;
+    font-weight: transparent;
+}
+@media (max-width: 768px) {
+    .middle {
+        display: none;
+    }
+    .sec2,
+    .sec3,
+    .sec3 .firsthav,
+    .sec3 .secondhav,
+    .sec3 .thirdhav,
+    .sec4,
+    .sec4 .onehav,
+    .sec4 .twohav,
+    .sec4 .threehav,
+    .sec4 .fourhav,
+    .sec5 {
+        width: 100%;
+        display: block;
+        padding: 20px;
+        flex-direction: column;
+        height: auto; 
+    }
+}
